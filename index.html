@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            height: 70px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 80px;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .footer-left button {
+            background-color: #fdbf00;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .footer-center i {
+            margin: 0 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .footer-right {
+            font-size: 14px;
+        }
+
+        .right{
+            position:fixed;
+            left: 50%;
+            right: 0%;
+            display: flex;
+        }
+        .nav{
+            display: flex;
+            list-style: none;  
+            padding-top: 50px;
+            justify-content: center;
+            gap: 70px;          
+            height: 100%;
+            position: fixed;
+            left: 50%;
+            right: 0%;
+            background-color: rgba(255, 0, 0, 0.711);  
+            background-image: url(pexels.jpg);
+            background-size:cover;
+            font-weight: bolder;
+            
+
+        }
+
+        .nav a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .left{
+            
+            position: relative;
+            position: fixed;
+            left: 0%;
+            right: 50%;
+            display: flex;
+            height: 100%;
+            width: 50%;
+
+        }
+
+        .leftone{
+            height: 60%;
+            position: absolute;            
+            top: 0%;
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin-left: 50px;
+            margin-top: 40px;
+            font-size: 60px;
+           
+
+
+        }
+
+        .leftwo{
+            position: absolute;
+            height: 40%;
+            top: 60%;
+            background-color: #fdbf00;
+            width: 100%;
+
+        }
+
+        .fa-brands fa-slack{
+            position: relative;
+            
+        }
+        .logotext{
+            position: absolute;
+            top:5px;
+            left: 73px;
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            
+
+        }
+
+        .logo-tagline{
+            position: fixed;
+
+           top: 35%;
+           left: 50px;
+           transform: translateY(-50%);
+           font-size: 80px; 
+           font-weight: bold;
+           line-height: 1.2;
+           max-width: 80%;
+            
+        }
+        
+        .leftwo{
+            position: relative;
+        }
+
+        .lefttwo-texts{
+            position: absolute;
+            top: 10%;
+            left: 50px;
+        }
+
+        .lefttwo-texts h3{
+            font-size: 40px;
+        }
+
+        .lefttwo-texts p{
+           padding-right: 100px;
+           align-items: center;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <div class="left">
+
+        <div class="leftone">
+
+            
+            <i class="fa-brands fa-slack"></i>
+
+            <div class="logotext">
+                <li> <b>COMPANY </b></li>
+                <p>LOGO</p>
+            </div>
+
+            <div class="logo-tagline">
+                Helping you <br>to create <br>
+                 a big brand
+            </div>
+            
+
+        </div>
+
+        <div class="leftwo">
+            
+            <div class="lefttwo-texts">
+                <h3>What you get?</h3> 
+                <br>
+                <p style="font-family: 'Open Sans', sans-serif;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+    <div class="right">
+        <div class="nav">
+
+            <li><a href="" style="background-color: #fdbf00; border:0.5px solid black; border-radius:15px; padding: 5px 10px">Home</a></li>
+            <li><a href="">Info</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ</a></li>
+        
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="footer-center">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+        <div class="footer-right">
+            www.yoursite.com
+        </div>
+    </div>
+
+</body>
+</html>
